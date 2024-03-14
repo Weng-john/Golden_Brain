@@ -32,10 +32,10 @@ for (let i = 1; i <= ROWS; i++) {
 }
 
 function handleCellClick(event) {
-    const row = parseInt(event.target.dataset.row);
-    const col = parseInt(event.target.dataset.col);
-    alert(`Clicked on cell (${row}, ${col})`);
-    // 在这里可以添加逻辑来处理点击事件，比如检查是否触发了地雷等等。
+  const row = parseInt(event.target.dataset.row);
+  const col = parseInt(event.target.dataset.col);
+  alert(`Clicked on cell (${row}, ${col})`);
+  // 在这里可以添加逻辑来处理点击事件，比如检查是否触发了地雷等等。
 }
 
 minefield.appendChild(tbody);
